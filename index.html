@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
-<meta name="theme-color" content="#f48fb1"/>
+<meta name="theme-color" content="#e91e8c"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
 <meta name="apple-mobile-web-app-title" content="Kitty Private"/>
 <title>Kitty Private</title>
 <link rel="manifest" href="manifest.json"/>
 <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABqUlEQVR4nM1XsU7DMBB9jpA6tHNXJPwB/YnO5CP6A1SMSGyMqPxKmCPxDXxAkFi7VWqHTmZAF+zLOT6bUPGWxM753vPFZ58NMnHcNW7s+2Jbmxx/KuMU6W/ERA2ccwHp6eU1i3x+dxsSGSNyiZ3OOXdu3/v2bL3KEkHk3IckokqR+474rLTk1OZRHQiQyHNExMjHRFxFvY1AEwktBr8gBloHGhw27c+4p0bsJ/QRoFSbrVeDxVOCw6bF8ubUi9h/zPtvx13jKEUrn5xWOZGWkgPA8vMeeHsEAJwf6u+2x0Gcxm8QpvzHPngaL7a1Ua+Bv4K51OwJPArqCFhrg2epDUcgIDZ7ay26rgMAdF0nEmhsJI5kBGKO/H6NTQz/6xdIoLByx36/xqZYgORIcqyxkaA+jCSH++tnAOh3OS2pjyq3huPk/D0Hg50wp+yiWfP3FDhHUT1QQhxDBYTVa27xmQPfd3AcX0KERB4IGBswJTlHIIBnxBQipBrAb4spKN2Eco9pSbyU8tE9IHYdSwmJRS223yQ3odJ7YYqYkDwLSndK7dhs51Nfz78AdZjltKIhxQcAAAAASUVORK5CYII=" type="image/png"/>
-<link rel="apple-touch-icon" href="data:image/png;base64,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"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet"/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -19,7 +19,7 @@ body{font-family:'Vazirmatn',sans-serif;background:linear-gradient(160deg,#fce4e
 /* ── Header ── */
 header{background:rgba(255,255,255,0.88);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);padding:14px 20px;text-align:center;border-bottom:1px solid rgba(244,143,177,0.35);position:sticky;top:0;z-index:100;box-shadow:0 2px 16px rgba(233,30,140,0.09)}
 .logo{display:flex;align-items:center;justify-content:center;gap:10px}
-.logo-icon{width:38px;height:38px;border-radius:50%;background:#f48fb1;display:flex;align-items:center;justify-content:center;font-size:1.3rem}
+.logo-icon{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#e91e8c,#f48fb1);display:flex;align-items:center;justify-content:center;font-size:1.3rem}
 h1{color:#e91e8c;font-size:1.3rem;font-weight:700;letter-spacing:1px}
 .sub{color:#c2849a;font-size:0.75rem;margin-top:3px}
 
@@ -85,10 +85,6 @@ input[type=file]{display:none}
 
 /* ── Footer ── */
 footer{text-align:center;padding:32px 16px 16px;color:#c2849a;font-size:0.75rem}
-
-/* ── Empty state ── */
-.empty-state{text-align:center;padding:48px 16px;color:#c2849a;font-size:0.9rem}
-.empty-state-icon{font-size:2.5rem;margin-bottom:10px}
 </style>
 </head>
 <body>
@@ -100,7 +96,6 @@ footer{text-align:center;padding:32px 16px 16px;color:#c2849a;font-size:0.75rem}
   <div class="sub">گالری خصوصی سویتا خانوم</div>
 </header>
 
-<!-- Navigation Tabs -->
 <div class="nav-tabs">
   <button class="nav-tab active" onclick="showSection('home', this)">🏠 خانه</button>
   <button class="nav-tab" onclick="showSection('gallery', this)">🖼️ گالری</button>
@@ -153,10 +148,7 @@ footer{text-align:center;padding:32px 16px 16px;color:#c2849a;font-size:0.75rem}
 <div id="section-upload" class="section">
   <div class="sec">📷 افزودن عکس</div>
   <div class="sec-sub">یه عکس جدید اضافه کن</div>
-
-  <!-- User uploaded cards appear here first -->
   <div id="user-gallery-grid"></div>
-
   <div class="upload-wrapper">
     <div class="upload-card">
       <div class="upload-area" id="drop-zone" onclick="document.getElementById('file-input').click()">
@@ -164,11 +156,9 @@ footer{text-align:center;padding:32px 16px 16px;color:#c2849a;font-size:0.75rem}
         <p class="upload-text">برای انتخاب عکس کلیک کن<br/><span style="font-size:0.8rem;opacity:.75;">یا عکس را اینجا بکش و رها کن</span></p>
       </div>
       <input type="file" id="file-input" accept="image/*"/>
-
       <div class="upload-preview-wrap" id="preview-wrap">
         <img id="preview-img" class="upload-preview" src="" alt="پیش‌نمایش"/>
       </div>
-
       <div class="field-group">
         <label class="upload-label" for="note-input">یادداشت 📝</label>
         <textarea id="note-input" placeholder="یه چیزی بنویس درباره این عکس..."></textarea>
@@ -191,15 +181,8 @@ footer{text-align:center;padding:32px 16px 16px;color:#c2849a;font-size:0.75rem}
       <span class="about-emoji">🎀</span>
       <div class="about-title">Kitty Private</div>
       <div class="about-divider"></div>
-      <p class="about-text">
-        این وب‌اپلیکیشن اختصاصی برای <strong>خانوم سویتا</strong> طراحی شده،
-        از طرف بچش با تمام عشق و محبت 💕
-      </p>
-      <p class="about-text">
-        اینجا می‌تونی عکس‌هاتو نگه داری،<br/>
-        یادداشت بنویسی، تاریخ ثبت کنی،<br/>
-        و لحظه‌های قشنگت رو همیشه داشته باشی.
-      </p>
+      <p class="about-text">این وب‌اپلیکیشن اختصاصی برای <strong>خانوم سویتا</strong> طراحی شده،<br/>از طرف بچش با تمام عشق و محبت 💕</p>
+      <p class="about-text">اینجا می‌تونی عکس‌هاتو نگه داری،<br/>یادداشت بنویسی، تاریخ ثبت کنی،<br/>و لحظه‌های قشنگت رو همیشه داشته باشی.</p>
       <div class="about-divider"></div>
       <div class="about-badge">💝 با عشق، از پسرت</div>
     </div>
@@ -209,7 +192,6 @@ footer{text-align:center;padding:32px 16px 16px;color:#c2849a;font-size:0.75rem}
 <footer>با ❤️ از طرف پسرت</footer>
 
 <script>
-// Section navigation
 function showSection(name, tabEl) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
@@ -218,7 +200,6 @@ function showSection(name, tabEl) {
   window.scrollTo({top:0, behavior:'smooth'});
 }
 
-// File input handling
 const fileInput = document.getElementById('file-input');
 const dropZone = document.getElementById('drop-zone');
 const previewWrap = document.getElementById('preview-wrap');
@@ -226,31 +207,19 @@ const previewImg = document.getElementById('preview-img');
 let selectedFile = null;
 
 fileInput.addEventListener('change', function() {
-  if (this.files && this.files[0]) {
-    selectedFile = this.files[0];
-    showPreview(selectedFile);
-  }
+  if (this.files && this.files[0]) { selectedFile = this.files[0]; showPreview(selectedFile); }
 });
-
-// Drag & drop
 dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag-over'); });
 dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
 dropZone.addEventListener('drop', e => {
-  e.preventDefault();
-  dropZone.classList.remove('drag-over');
+  e.preventDefault(); dropZone.classList.remove('drag-over');
   const file = e.dataTransfer.files[0];
-  if (file && file.type.startsWith('image/')) {
-    selectedFile = file;
-    showPreview(file);
-  }
+  if (file && file.type.startsWith('image/')) { selectedFile = file; showPreview(file); }
 });
 
 function showPreview(file) {
   const reader = new FileReader();
-  reader.onload = e => {
-    previewImg.src = e.target.result;
-    previewWrap.classList.add('show');
-  };
+  reader.onload = e => { previewImg.src = e.target.result; previewWrap.classList.add('show'); };
   reader.readAsDataURL(file);
 }
 
@@ -258,21 +227,15 @@ function submitPhoto() {
   if (!selectedFile) { alert('لطفاً ابتدا یک عکس انتخاب کن 📸'); return; }
   const note = document.getElementById('note-input').value.trim();
   const date = document.getElementById('date-input').value;
-
   const reader = new FileReader();
   reader.onload = e => {
     addUserCard(e.target.result, note, date);
-    // Reset form
-    selectedFile = null;
-    fileInput.value = '';
+    selectedFile = null; fileInput.value = '';
     document.getElementById('note-input').value = '';
     document.getElementById('date-input').value = '';
-    previewWrap.classList.remove('show');
-    previewImg.src = '';
-
-    const successEl = document.getElementById('upload-success');
-    successEl.classList.add('show');
-    setTimeout(() => successEl.classList.remove('show'), 3000);
+    previewWrap.classList.remove('show'); previewImg.src = '';
+    const s = document.getElementById('upload-success');
+    s.classList.add('show'); setTimeout(() => s.classList.remove('show'), 3000);
   };
   reader.readAsDataURL(selectedFile);
 }
@@ -281,20 +244,12 @@ function addUserCard(src, note, date) {
   const grid = document.getElementById('user-gallery-grid');
   const card = document.createElement('div');
   card.className = 'card';
-
   let dateStr = '';
   if (date) {
     const d = new Date(date);
     dateStr = d.toLocaleDateString('fa-IR', {year:'numeric', month:'long', day:'numeric'});
   }
-
-  card.innerHTML = `
-    <img src="${src}" alt="عکس شخصی" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"/>
-    <div class="user-card-meta">
-      ${note ? `<div class="user-card-note">${note}</div>` : ''}
-      ${dateStr ? `<div class="user-card-date">📅 ${dateStr}</div>` : ''}
-    </div>
-  `;
+  card.innerHTML = `<img src="${src}" alt="عکس شخصی" style="width:100%;aspect-ratio:3/4;object-fit:cover;display:block"/><div class="user-card-meta">${note ? `<div class="user-card-note">${note}</div>` : ''}<div class="user-card-date">${dateStr ? '📅 ' + dateStr : ''}</div></div>`;
   grid.insertBefore(card, grid.firstChild);
 }
 
